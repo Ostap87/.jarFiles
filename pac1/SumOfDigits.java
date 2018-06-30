@@ -50,5 +50,15 @@ public class SumOfDigits {
 		// sum(5) is equal to sum(4) + 5, right?
 		// which is equal to sum(3) + 4 + 5 and so on...
 
+		int[] dig = { 1, 2, 3, 4, 5, 5, 10, 20 };
+		int sum =0;
+
+		for (int i = 0; i < dig.length; i++) {
+
+			sum=sum+dig[i];
+
+		}
+		System.out.println("Sum is : "+sum);
 	}
+	
 }

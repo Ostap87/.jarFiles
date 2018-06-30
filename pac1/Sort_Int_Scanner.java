@@ -1,4 +1,3 @@
-
 package pac1;
 
 import java.util.ArrayList;
@@ -6,10 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class MyPractice {
+public class Sort_Int_Scanner {
 
 	public static void main(String[] args) {
-
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Add any number : ");
 		List<Integer> data = new ArrayList<>();
@@ -23,4 +21,5 @@ public class MyPractice {
 		
 		scan.close();
 	}
+
 }

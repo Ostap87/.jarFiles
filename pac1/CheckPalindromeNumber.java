@@ -4,7 +4,7 @@ public class CheckPalindromeNumber {
 
 	public static void main(String[] args) {
 
-		int original = 33;
+		int original = 323;
 		int reverse = 0;
 		int temp = original;
 

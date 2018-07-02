@@ -1,26 +1,22 @@
 
 package pac1;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+
 
 public class MyPractice {
 
 	public static void main(String[] args) {
+System.out.println(factorial(4));
 
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Add any number : ");
-		List<Integer> data = new ArrayList<>();
-		String[] str = scan.nextLine().split("\\s");
-		for (int i = 0; i < str.length; i++) {
-			data.add(Integer.parseInt(str[i]));
-			Collections.sort(data);
+	}
+	
+	public static int factorial(int x) {
+		if(x == 0) {
+			return 0;
+		}else if(x == 1){
+			return 1;
+		}else{
+			return(x*factorial(x-1));
 		}
-
-		System.out.println("Result" + data);
-		
-		scan.close();
 	}
 }

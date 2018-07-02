@@ -20,6 +20,6 @@ public class Fibonacci {
 	// return fibNums(n - 2)--->(2-2)--->0
 
 	public static void main(String[] args) {
-		System.out.println(fibNums(11));
+		System.out.println(fibNums(8));
 	}
 }
